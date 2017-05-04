@@ -1,0 +1,25 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "The source for our wedding site",
+  "main": "src/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/psoots/wedding.git"
+  },
+  "author": "Peter Soots <psoots@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psoots/wedding/issues"
+  },
+  "homepage": "https://github.com/psoots/wedding#readme",
+  "dependencies": {
+    "rollup": "^0.41.6"
+  }
+}
