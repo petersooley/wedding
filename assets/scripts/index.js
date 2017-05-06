@@ -8,3 +8,4 @@ new Vue({
     'my-foo': foo,
   },
 });
+
