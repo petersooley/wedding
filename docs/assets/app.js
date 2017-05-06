@@ -8883,7 +8883,7 @@ function getOuterHTML (el) {
 Vue$3$1.compile = compileToFunctions;
 
 var foo = { template: "<div class=\"hello\"><h1 class=\"title\">{{ msg }}</h1></div>",
-  data: function data () {
+  data: function data() {
     return {
       msg: 'Hello World!!!!',
     };
@@ -8891,10 +8891,10 @@ var foo = { template: "<div class=\"hello\"><h1 class=\"title\">{{ msg }}</h1></
 };
 
 new Vue$3$1({
-    el: '#app',
-    components: {
-        'my-foo': foo,
-    },
+  el: '#app',
+  components: {
+    'my-foo': foo,
+  },
 });
 
 }());

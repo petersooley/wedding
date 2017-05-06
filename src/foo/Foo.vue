@@ -6,12 +6,12 @@
 
 <script>
   export default {
-    data () {
+    data() {
       return {
         msg: 'Hello World!!!!',
       };
     }
-  }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
