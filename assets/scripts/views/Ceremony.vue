@@ -1,7 +1,7 @@
 <template>
     <section class="post">
         <header class="major">
-            <span class="date">August 20th, 2017</span>
+            <span class="date">2017 August 20 3pm, Sunday</span>
             <h1>A different kind<br/>of ceremony</h1>
             <p>
                 Heavy on the celebration and light on the rituals. <br/>&nbsp;
@@ -9,7 +9,7 @@
                 Just the people we love and plenty of food, drink, and games.
             </p>
         </header>
-        <div class="image main"><img src="lib/images/pic01.jpg" alt="" /></div>
+        <div class="image main"><img src="lib/images/peterryankiss.gif" alt="" /></div>
         <p>
             This is a celebration of love and commitment. We're just starting out
             on this journey and along the way it will be you, our friends and family,
@@ -28,6 +28,15 @@
             extroverted, we'd like to hear from you too. Even if you have a small
             one-liner to share that'd be fine. We can also just read something you write.
         </p>
+        <header><h1>Eagle Fern Park, 3pm</h1></header>
+        <section class="post">
+            <article>
+                </header>
+                <p><iframe src="https://www.google.com/maps/d/embed?mid=1BPmmdm4XAEuNqJ5AbMUhHM9Jwic&hl=en" width="640" height="480"></iframe>
+                </p>
+            </article>
+        </section>
     </section>
+
 </template>
 
