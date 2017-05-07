@@ -4272,3 +4272,6 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+
+.bg {
+  color: red; }
