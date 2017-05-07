@@ -4,8 +4,8 @@
             <span class="date">August 20th, 2017</span>
             <h1>A different kind<br/>of ceremony</h1>
             <p>
-                Heavy on the celebration and light on the rituals.<br/>
-                No aisle. No sermon. No alter. <br/>
+                Heavy on the celebration and light on the rituals. <br/>&nbsp;
+                No aisle. No sermon. No alter. <br/>&nbsp;
                 Just the people we love and plenty of food, drink, and games.
             </p>
         </header>

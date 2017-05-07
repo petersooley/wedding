@@ -3,3 +3,7 @@
   #nav ul.links li {
     width: 100%;
     text-align: center; }
+
+@media screen and (max-width: 480px) {
+  #copyright ul li:first-child {
+    line-height: 1.3rem; } }
