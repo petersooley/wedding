@@ -31,9 +31,12 @@
         <header><h1>Eagle Fern Park, 3pm</h1></header>
         <section class="post">
             <article>
-                </header>
-                <p><iframe src="https://www.google.com/maps/d/embed?mid=1BPmmdm4XAEuNqJ5AbMUhHM9Jwic&hl=en" width="640" height="480"></iframe>
-                </p>
+                <div class="image main">
+                    <a href="https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735"
+                       title="Map pointing to Eagle Fern Park">
+                        <div id="map-image"></div>
+                    </a>
+                </div>
             </article>
         </section>
     </section>

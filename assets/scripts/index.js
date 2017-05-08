@@ -10,6 +10,7 @@ import Visiting from './views/Visiting.vue';
 Vue.use(VueRouter);
 
 const routes = [
+  { path: '/', redirect: '/ceremony' },
   { path: '/ceremony', component: Ceremony },
   { path: '/contact', component: Contact },
   { path: '/eclipse', component: Eclipse },
@@ -17,9 +18,12 @@ const routes = [
   { path: '/visiting', component: Visiting },
 ];
 
-const router = new VueRouter({ routes });
+const router = new VueRouter({
+  routes,
+  linkActiveClass: 'active',
+});
 
-const app = new Vue({
+new Vue({
   router,
 }).$mount('#wrapper');
 

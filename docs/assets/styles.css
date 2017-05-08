@@ -1,4 +1,5 @@
 #nav {
+  margin-top: 10rem;
   padding-right: 0; }
   #nav ul.links li {
     width: 100%;
@@ -7,3 +8,19 @@
 @media screen and (max-width: 480px) {
   #copyright ul li:first-child {
     line-height: 1.3rem; } }
+
+#map-image {
+  background-image: url(../images/map.png);
+  background-position: center center;
+  background-size: cover;
+  height: 500px; }
+
+@media screen and (max-width: 480px) {
+  #map-image {
+    padding-left: 400px;
+    margin-left: -400px;
+    padding-right: 400px;
+    margin-right: -400px;
+    height: 400px;
+    width: 800px;
+    background-position: 200px center; } }

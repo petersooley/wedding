@@ -12,7 +12,7 @@ all: build-dev
 build-dev: clean $(css)
 
 clean:
-	rm -rf docs/assets
+	rm -rf $(css)
 
 $(css): $(scss)
 	mkdir -p $(dir $@)
