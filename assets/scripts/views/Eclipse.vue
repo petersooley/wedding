@@ -7,7 +7,7 @@
                 Heavy on the eclipse and light on the solar. <br/>&nbsp;
             </p>
         </header>
-        <div class="image main"><img src="lib/images/eclipse2.png" alt="" /></div>
+        <div class="image main"><img src="images/eclipse2.png" alt="" /></div>
         <p>
             On August 21st, 2017, the sun and the moon will align casting a shadow over American soil
             for the first time since 1979. Can there be a more unique way to celebrate our marriage

@@ -9,7 +9,7 @@
                 Just the people we love and plenty of food, drink, and games.
             </p>
         </header>
-        <div class="image main"><img src="lib/images/peterryankiss.gif" alt="" /></div>
+        <div class="image main"><img src="images/peterryankiss.gif" alt="" /></div>
         <p>
             This is a celebration of love and commitment. We're just starting out
             on this journey and along the way it will be you, our friends and family,
