@@ -1021,16 +1021,16 @@ body {
 
 /* Type */
 html {
-  font-size: 16pt; }
+  font-size: 18pt; }
   @media screen and (max-width: 1680px) {
     html {
-      font-size: 12pt; } }
+      font-size: 14pt; } }
   @media screen and (max-width: 1280px) {
     html {
-      font-size: 11pt; } }
+      font-size: 12pt; } }
   @media screen and (max-width: 360px) {
     html {
-      font-size: 10pt; } }
+      font-size: 11pt; } }
 
 body {
   color: #212931; }
@@ -1837,7 +1837,7 @@ header {
         display: block;
         position: absolute;
         top: 50%;
-        width: calc(50% - 6rem);
+        width: calc(50% - 9rem);
         border-top: solid 2px; }
       header.major > .date:before {
         left: 0; }
@@ -2991,3 +2991,15 @@ table.alt tbody tr td {
     height: 400px;
     width: 800px;
     background-position: 200px center; } }
+
+p {
+  line-height: 42px; }
+  @media screen and (max-width: 1680px) {
+    p {
+      line-height: 40px; } }
+  @media screen and (max-width: 1280px) {
+    p {
+      line-height: 35px; } }
+  @media screen and (max-width: 360px) {
+    p {
+      line-height: 25px; } }

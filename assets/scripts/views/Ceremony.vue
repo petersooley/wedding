@@ -28,17 +28,14 @@
             extroverted, we'd like to hear from you too. Even if you have a small
             one-liner to share that'd be fine. We can also just read something you write.
         </p>
-        <header><h1>Eagle Fern Park, 3pm</h1></header>
-        <section class="post">
-            <article>
-                <div class="image main">
-                    <a href="https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735"
-                       title="Map pointing to Eagle Fern Park">
-                        <div id="map-image"></div>
-                    </a>
-                </div>
-            </article>
-        </section>
+
+        <h3>Eagle Fern Park, 3pm</h3>
+        <div class="image main">
+            <a href="https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735"
+               title="Map pointing to Eagle Fern Park">
+                <div id="map-image"></div>
+            </a>
+        </div>
     </section>
 
 </template>

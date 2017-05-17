@@ -422,6 +422,8 @@ function parsePath (path) {
 var warn = noop;
 var formatComponentName = (null); // work around flow check
 
+/*  */
+
 function handleError (err, vm, info) {
   if (config.errorHandler) {
     config.errorHandler.call(null, err, vm, info);
@@ -955,6 +957,9 @@ var strats = config.optionMergeStrategies;
 /**
  * Options with restrictions
  */
+/**
+ * Helper that recursively merges two data objects together.
+ */
 function mergeData (to, from) {
   if (!from) { return to }
   var key, toVal, fromVal;
@@ -1113,7 +1118,8 @@ var defaultStrat = function (parentVal, childVal) {
 };
 
 /**
- * Validate component names
+ * Ensure all props option syntax are normalized into the
+ * Object-based format.
  */
 function normalizeProps (options) {
   var props = options.props;
@@ -1295,7 +1301,9 @@ function getPropDefaultValue (vm, prop, key) {
 }
 
 /**
- * Assert whether a prop is valid.
+ * Use function string name to check built-in types,
+ * because a simple equality check will fail when running
+ * across different vms / iframes.
  */
 function getType (fn) {
   var match = fn && fn.toString().match(/^\s*function (\w+)/);
@@ -1319,6 +1327,8 @@ function isType (type, fn) {
 
 var mark;
 var measure;
+
+/*  */
 
 var VNode = function VNode (
   tag,
@@ -8561,8 +8571,6 @@ function transformSpecialNewlines (text) {
 
 /*  */
 
-// these keywords should not appear inside expressions, but operators like
-// typeof, instanceof and in are allowed
 function baseCompile (
   template,
   options
@@ -11277,7 +11285,7 @@ if (inBrowser$1 && window.Vue) {
   window.Vue.use(VueRouter);
 }
 
-var Ceremony = { template: "<section class=\"post\"><header class=\"major\"><span class=\"date\">2017 August 20 3pm, Sunday</span><h1>A different kind<br>of ceremony</h1><p>Heavy on the celebration and light on the rituals.<br>&nbsp; No aisle. No sermon. No alter.<br>&nbsp; Just the people we love and plenty of food, drink, and games.</p></header><div class=\"image main\"><img src=\"images/peterryankiss.gif\" alt=\"\"></div><p>This is a celebration of love and commitment. We're just starting out on this journey and along the way it will be you, our friends and family, who will keep us accountable and inspired. So for this ceremony we have no one person who will guide us into marriage. It will be all of you.</p><p>We want to hear your counsel on love, commitment, growing old together, and sharing life's milestones and crises. Share your thoughts on the relationship that we have, but also delve into your own experiences. What made you stronger? What lessons were learned?</p><p>We'd like everyone who wants to speak get a chance, so your story should be short (like shorter than a song). For the less long winded or extroverted, we'd like to hear from you too. Even if you have a small one-liner to share that'd be fine. We can also just read something you write.</p><header><h1>Eagle Fern Park, 3pm</h1></header><section class=\"post\"><article><div class=\"image main\"><a href=\"https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735\" title=\"Map pointing to Eagle Fern Park\"><div id=\"map-image\"></div></a></div></article></section></section>",
+var Ceremony = { template: "<section class=\"post\"><header class=\"major\"><span class=\"date\">2017 August 20 3pm, Sunday</span><h1>A different kind<br>of ceremony</h1><p>Heavy on the celebration and light on the rituals.<br>&nbsp; No aisle. No sermon. No alter.<br>&nbsp; Just the people we love and plenty of food, drink, and games.</p></header><div class=\"image main\"><img src=\"images/peterryankiss.gif\" alt=\"\"></div><p>This is a celebration of love and commitment. We're just starting out on this journey and along the way it will be you, our friends and family, who will keep us accountable and inspired. So for this ceremony we have no one person who will guide us into marriage. It will be all of you.</p><p>We want to hear your counsel on love, commitment, growing old together, and sharing life's milestones and crises. Share your thoughts on the relationship that we have, but also delve into your own experiences. What made you stronger? What lessons were learned?</p><p>We'd like everyone who wants to speak get a chance, so your story should be short (like shorter than a song). For the less long winded or extroverted, we'd like to hear from you too. Even if you have a small one-liner to share that'd be fine. We can also just read something you write.</p><h3>Eagle Fern Park, 3pm</h3><div class=\"image main\"><a href=\"https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735\" title=\"Map pointing to Eagle Fern Park\"><div id=\"map-image\"></div></a></div></section>",
 };
 
 var Contact = { template: "<h1>{{ msg }}</h1>",
@@ -11288,7 +11296,7 @@ var Contact = { template: "<h1>{{ msg }}</h1>",
   }
 };
 
-var Eclipse = { template: "<section class=\"post\"><header class=\"major\"><span class=\"date\">2017 August 21, Monday</span><h1>The Sight of a lifetime</h1><p>Heavy on the eclipse and light on the solar.<br>&nbsp;</p></header><div class=\"image main\"><img src=\"images/eclipse2.png\" alt=\"\"></div><p>On August 21st, 2017, the sun and the moon will align casting a shadow over American soil for the first time since 1979. Can there be a more unique way to celebrate our marriage than to experience the strange effect of these two orbs as they tango through the galaxy?</p><p>The Monday after the wedding, the eclipse first blesses the Oregon coast before moving westward. It's a narrow path and the full effect won't be visible from Portland. We and people all over the Pacific Northwest will be making a celestial pilgrimage to the path of the totality for that Monday morning. Everyone is welcome to join the caravan on our way to the Salem area where we will ponder the whole of space and time in a few odd and breathtaking moments.</p></section>",
+var Eclipse = { template: "<section class=\"post\"><header class=\"major\"><span class=\"date\">2017 August 21, Monday</span><h1>The Sight of a lifetime</h1><p>Heavy on the eclipse and light on the solar.<br>&nbsp;</p></header><div class=\"image main\"><img src=\"images/eclipse2.png\" alt=\"\"></div><p>On August 21st, 2017, the sun and the moon will align casting a shadow over American soil for the first time since 1979. Can there be a more unique way to celebrate our marriage than to experience the strange effect of these two orbs as they tango through the galaxy?</p><p>The Monday after the wedding, the eclipse first blesses the Oregon coast before moving westward. It's a narrow path and the full effect won't be visible from Portland. We and people all over the Pacific Northwest will be making a celestial pilgrimage to the \"path of totality\" for that Monday morning. Everyone is welcome to join the caravan on our way to the Salem area where we will ponder the whole of space and time in a few odd and breathtaking moments.</p></section>",
 };
 
 var Journey = { template: "<section class=\"post\"><header class=\"major\"><h1>Send us to Thailand</h1><p>We don't need more stuff... we <strong>need</strong> a vacation!</p></header><div class=\"image main\"><img src=\"images/thailandhotel.jpg\" alt=\"\"></div><p></p><h2><a href=\"https://cash.me/$TheSooleys\">Here is our honeymoon fund</a></h2><p></p></section>",

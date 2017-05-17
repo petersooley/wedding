@@ -18,7 +18,7 @@
             The Monday after the wedding, the eclipse first blesses the Oregon coast before
             moving westward. It's a narrow path and the full effect won't be visible from Portland.
             We and people all over the Pacific Northwest will be making a celestial pilgrimage
-            to the path of the totality for that Monday morning. Everyone is welcome to join
+            to the "path of totality" for that Monday morning. Everyone is welcome to join
             the caravan on our way to the Salem area where we will ponder the whole of space and
             time in a few odd and breathtaking moments.
         </p>

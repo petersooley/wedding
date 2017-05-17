@@ -34,3 +34,21 @@
     background-position: 200px center;
   }
 }
+
+
+
+p {
+  line-height: 42px;
+
+  @include breakpoint(xlarge) {
+    line-height: 40px;
+  }
+
+  @include breakpoint(large) {
+    line-height: 35px;
+  }
+
+  @include breakpoint(xxsmall) {
+    line-height: 25px;
+  }
+}
