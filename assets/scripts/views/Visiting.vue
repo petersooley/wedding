@@ -1,7 +1,7 @@
 <template>
     <section class="post">
         <header class="major">
-            <h1>Explore the Portland life</h1>
+            <h1>Explore the<br/>Portland life</h1>
         </header>
         <p>
             Some of you are traveling from far away -  we're so happy you're coming!
@@ -77,7 +77,7 @@
             from the airport. We also have <a href="https://www.lyft.com/">Lyft</a> or
             <a href="https://www.car2go.com">Car2Go</a> and a great taxi company
             called <a href="http://radiocab.net">Radio Cab</a> (veteran owned!). There
-            are also peer-to-peer car rental serices too that might be cheaper than a regular
+            are also peer-to-peer car rental services too that might be cheaper than a regular
             car rental like <a href="https://www.getaround.com/">Getaround</a> and
             <a href="https://turo.com/">Turo</a>.
         </p>
