@@ -3,6 +3,7 @@
         <header class="major">
             <h1>Explore the<br/>Portland life</h1>
         </header>
+        <div class="image main"><img src="images/oregon.jpg" alt="" /></div>
         <p>
             Some of you are traveling from far away -  we're so happy you're coming!
             Welcome to Oregon! Here are some tips for getting around. Portland is
