@@ -5,6 +5,7 @@
             <h1>The Sight of a lifetime</h1>
             <p>
                 Heavy on the eclipse and light on the solar. <br/>&nbsp;
+                Oh, and funny paper glasses.
             </p>
         </header>
         <div class="image main"><img src="images/eclipse2.png" alt="" /></div>
