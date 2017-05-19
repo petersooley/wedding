@@ -2992,6 +2992,9 @@ table.alt tbody tr td {
     width: 800px;
     background-position: 200px center; } }
 
+#footer > section.split.contact > section > :first-child {
+  width: 9rem; }
+
 p {
   line-height: 42px; }
   @media screen and (max-width: 1680px) {
