@@ -5,7 +5,7 @@ import buble from 'rollup-plugin-buble';
 import vue from 'rollup-plugin-vue';
 import replace from 'rollup-plugin-replace';
 
-import livereload from 'rollup-plugin-livereload';
+// import livereload from 'rollup-plugin-livereload';
 
 export default {
   entry: 'assets/scripts/index.js',
@@ -23,8 +23,8 @@ export default {
     replace({
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
-    livereload({
-      watch: 'docs/assets',
-    }),
+    // livereload({
+    //   watch: 'docs/assets',
+    // }),
   ],
 };
