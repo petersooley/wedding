@@ -422,6 +422,8 @@ function parsePath (path) {
 var warn = noop;
 var formatComponentName = (null); // work around flow check
 
+/*  */
+
 function handleError (err, vm, info) {
   if (config.errorHandler) {
     config.errorHandler.call(null, err, vm, info);
@@ -955,6 +957,9 @@ var strats = config.optionMergeStrategies;
 /**
  * Options with restrictions
  */
+/**
+ * Helper that recursively merges two data objects together.
+ */
 function mergeData (to, from) {
   if (!from) { return to }
   var key, toVal, fromVal;
@@ -1113,7 +1118,8 @@ var defaultStrat = function (parentVal, childVal) {
 };
 
 /**
- * Validate component names
+ * Ensure all props option syntax are normalized into the
+ * Object-based format.
  */
 function normalizeProps (options) {
   var props = options.props;
@@ -1295,7 +1301,9 @@ function getPropDefaultValue (vm, prop, key) {
 }
 
 /**
- * Assert whether a prop is valid.
+ * Use function string name to check built-in types,
+ * because a simple equality check will fail when running
+ * across different vms / iframes.
  */
 function getType (fn) {
   var match = fn && fn.toString().match(/^\s*function (\w+)/);
@@ -1319,6 +1327,8 @@ function isType (type, fn) {
 
 var mark;
 var measure;
+
+/*  */
 
 var VNode = function VNode (
   tag,
@@ -8561,8 +8571,6 @@ function transformSpecialNewlines (text) {
 
 /*  */
 
-// these keywords should not appear inside expressions, but operators like
-// typeof, instanceof and in are allowed
 function baseCompile (
   template,
   options
