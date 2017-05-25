@@ -10,10 +10,10 @@
         <p>
             We don't need knife sets, toasters, cheese boards, and other wedding bric-a-brac where we're going.
             After the plane tickets, we're going to the ever affordable Thailand. Where they have some gorgeous resorts
-            and the beachiest beaches. All we need is a beach and nothing to do.
+            and the beachiest beaches. All we need is nothing to do.
         </p>
         <div class="align-center">
-            <a href="https://cash.me/$TheSooleys" class="button special big">
+            <a href="https://cash.me/$TheSooleys" class="button special big" target="_blank">
                 Contribute to our Honeymoon Fund here
             </a>
         </div>

@@ -20,8 +20,8 @@
         </p>
         <h3>Lodging</h3>
         <p>
-            There are a lot of <a href="https://www.airbnb.com/">Airbnb</a> options in the
-            area or <a href="https://www.hipcamp.com/">Hipcamp</a> if you're looking for
+            There are a lot of <a href="https://www.airbnb.com/" target="_blank">Airbnb</a> options in the
+            area or <a href="https://www.hipcamp.com/" target="_blank">Hipcamp</a> if you're looking for
             something more rustic. The wedding will be 45 minutes southeast of Portland,
             so the southeast side of Portland will be closest. You probably won't find
             anything near the park itself. If you have a question, just ask us! :)
@@ -45,18 +45,18 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><a href="http://www.bollywoodtheaterpdx.com/">Bollywood Theater</a></td>
+                    <td><a href="http://www.bollywoodtheaterpdx.com/" target="_blank">Bollywood Theater</a></td>
                     <td>Indian street food</td>
                     <td>$$</td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.littlebigburger.com/">Little Big Burger</a></td>
+                    <td><a href="http://www.littlebigburger.com/" target="_blank">Little Big Burger</a></td>
                     <td>Amazing burgers and fries</td>
                     <td>$</td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="http://www.foodcartsportland.com/category/location/southeast-portland-location/se-28th-and-division-tidbit/">
+                        <a href="http://www.foodcartsportland.com/category/location/southeast-portland-location/se-28th-and-division-tidbit/" target="_blank">
                             Food carts on SE 28th and Division
                         </a>
                     </td>
@@ -64,7 +64,7 @@
                     <td>$</td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.sizzlepie.com/">Sizzle Pie</a></td>
+                    <td><a href="https://www.sizzlepie.com/" target="_blank">Sizzle Pie</a></td>
                     <td>The best (and strangest) pizza you'll ever eat!</td>
                     <td>$$</td>
                 </tr>
@@ -73,22 +73,22 @@
 
         <h3>Transportation</h3>
         <p>
-            Our <a href="https://trimet.org">public transport</a> is easy and fairly cheap.
+            Our <a href="https://trimet.org" target="_blank">public transport</a> is easy and fairly cheap.
             It goes almost everywhere in the area, and you can even take the train to and
-            from the airport. We also have <a href="https://www.lyft.com/">Lyft</a> or
-            <a href="https://www.car2go.com">Car2Go</a> and a great taxi company
-            called <a href="http://radiocab.net">Radio Cab</a> (veteran owned!). There
+            from the airport. We also have <a href="https://www.lyft.com/" target="_blank">Lyft</a> or
+            <a href="https://www.car2go.com" target="_blank">Car2Go</a> and a great taxi company
+            called <a href="http://radiocab.net" target="_blank">Radio Cab</a> (veteran owned!). There
             are also peer-to-peer car rental services too that might be cheaper than a regular
-            car rental like <a href="https://www.getaround.com/">Getaround</a> and
-            <a href="https://turo.com/">Turo</a>.
+            car rental like <a href="https://www.getaround.com/" target="_blank">Getaround</a> and
+            <a href="https://turo.com/" target="_blank">Turo</a>.
         </p>
 
         <h3>Wilderness</h3>
         <p>
             If you're new to the Pacific Northwest, you may want to step out of the city and
-            check out the <a href="http://traveloregon.com/">natural wonders</a> around here.
+            check out the <a href="http://traveloregon.com/" target="_blank">natural wonders</a> around here.
             If you don't want to get too far out of the city, there's also
-            <a href="http://www.forestparkconservancy.org/forest-park/">Forest Park</a>.
+            <a href="http://www.forestparkconservancy.org/forest-park/" target="_blank">Forest Park</a>.
         </p>
     </section>
 

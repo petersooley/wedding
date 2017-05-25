@@ -36,14 +36,14 @@
 
         <h3>Eagle Fern Park, 3pm</h3>
         <p>
-            The <a href="http://www.clackamas.us/parks/eaglefern.html">park</a> is near Estacada
+            The <a href="http://www.clackamas.us/parks/eaglefern.html" target="_blank">park</a> is near Estacada
             about 45 minutes out. It's a small park with a few trails and a river.
             They allow leashed dogs. We'll be outside the whole time so dress accordingly. T-shirt, shorts,
             and tennis shoes are fine, but fancy is fun too if that's your thing. The bathroom is a flush toilet.
         </p>
         <div class="image main">
             <a href="https://www.google.com/maps/place/Eagle+Fern+Park/@45.321953,-122.2895387,17z/data=!3m1!4b1!4m5!3m4!1s0x549583fb5bdd408b:0x80af41d719ccb61d!8m2!3d45.321953!4d-122.28735"
-               title="Map pointing to Eagle Fern Park">
+               title="Map pointing to Eagle Fern Park" target="_blank">
                 <div id="map-image"></div>
             </a>
         </div>
