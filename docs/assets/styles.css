@@ -2974,7 +2974,9 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 480px) {
   #copyright ul li:first-child {
-    line-height: 1.3rem; } }
+    line-height: 1.3rem; }
+  #copyright ul + ul {
+    margin-top: 1.3rem; } }
 
 #map-image {
   background-image: url(../images/map.png);
